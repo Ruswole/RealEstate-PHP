@@ -4,7 +4,7 @@ session_cache_limiter(false);
 session_start();
 include("config.php");
 ///code								
-?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +23,7 @@ include("config.php");
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!--	Css Link
 	========================================================-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -42,23 +42,23 @@ include("config.php");
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
+	<!-- Page Loader -->
+
+<!-- <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
 	<div class="d-flex justify-content-center y-middle position-relative">
 	  <div class="spinner-border" role="status">
 		<span class="sr-only">Loading...</span>
 	  </div>
 	</div>
-</div>
---> 
+</div> -->
+
 
 
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header One -->
         <!--	Header start  -->
-		<?php include("include/header.php");?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+		<?php include("include/header.php");?>
         <!--	Header end  -->
 
         <!--	Banner   --->
@@ -90,7 +90,6 @@ include("config.php");
                         </div>
                 </div>
                 <div class="row">
-                <!-- FOR MORE PROJECTS visit: codeastro.com -->
                     <?php 
 							$query=mysqli_query($con,"SELECT * FROM user WHERE utype='agent'");
 								while($row=mysqli_fetch_array($query))

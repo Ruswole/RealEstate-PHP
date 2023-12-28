@@ -120,7 +120,7 @@ if(isset($_REQUEST['calc']))
 							<tr class="text-center">
                                 <td><b>Total Duration</b></td>
                                 <td><b><?php echo $mon.' Months' ; ?></b></td>
-                            </tr><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            </tr>
 							<tr class="text-center">
                                 <td><b>Interest Rate</b></td>
                                 <td><b><?php echo $int.'%' ; ?></b></td>
@@ -142,7 +142,7 @@ if(isset($_REQUEST['calc']))
                     </table> 
 					</center>
             </div>
-        </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+        </div>
 	<!--	Submit property   -->
         
         

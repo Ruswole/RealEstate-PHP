@@ -114,7 +114,7 @@ include("config.php");
         <div class="full-row bg-gray">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                    <div class="col-lg-12">
                         <h2 class="text-secondary double-down-line text-center mb-5">What We Do</h2></div>
                 </div>
                 <div class="text-box-one">

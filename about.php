@@ -75,7 +75,6 @@ include("config.php");
             </div>
         </div> -->
          <!--	Banner   --->
-		 <!-- FOR MORE PROJECTS visit: codeastro.com -->
         <!--	About Our Company -->
         <div class="full-row">
             <div class="container">
@@ -116,7 +115,7 @@ include("config.php");
         <!-- Scroll to top --> 
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
         <!-- End Scroll To top --> 
-    </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+    </div>
 </div>
 <!-- Wrapper End --> 
 
